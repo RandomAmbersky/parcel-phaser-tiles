@@ -1,0 +1,16 @@
+{
+  "name": "parcel-phaser-tiles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RandomAmbersky/parcel-phaser-tiles.git",
+  "author": "sir Random <random@amberskynet.org>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node build-client.js",
+    "build": "parcel build web/index.html"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
